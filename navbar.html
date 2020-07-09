@@ -1,32 +1,33 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/navbar.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>navbar</title>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
 
-<html>
-
-<head>
-
-    <link href="css/navbar.css" rel="stylesheet" type="text/css">
-    <title>Navbar</title>
-</head>
-
-
-<body>
-
-    <header>
-        <div class="container">
-
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Search</a></li>
-                    <li><a href="#">Display Rooms</a></li>
-                    <li><a href="#">Sign Out</a></li>
-                </ul>
-            </nav>
-
-        </div>
-
-    </header>
-</body>
-
-
+      <div class="logo"><h4>Liberty University</h4></div>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Rooms</a></li>
+        <li><a href="#">Search</a></li>
+        <!-- Logout button -->
+        
+        <form align-form="right" name="form1" > </form> 
+        <!-- method="post" action="log_out.php"> -->
+          <label class="logoutLblPos">
+            <input name="submit2" type="submit" id="submit2" value="log out" />
+          </label>
+        </form>
+      </ul>
+    </nav>
+  </body>
 </html>
