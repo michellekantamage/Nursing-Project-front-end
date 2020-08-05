@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Bar</title>
+    <link rel="stylesheet" href="search.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"/>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+
+    <div class="main">
+      <input type="text" name="box" placeholder="Type to search item ..." />
+      <div class="searchbtn">
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+  </body>
+</html>
