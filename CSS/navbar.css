@@ -5,14 +5,7 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: montserrat;
-  background-image: url("../images/nurse3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
-}
+
 nav {
   display: flex;
   justify-content: space-around;
